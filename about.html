@@ -1,0 +1,46 @@
+<html>
+<title>
+About
+</title>
+<link rel = "stylesheet" type = "text/css" href = "style.css" />
+
+<body>
+<div class=header>
+<a href="index.html">Return to Login</a>
+</div>
+
+<div class=title>
+<h2>What is this site?</h2>
+</div>
+
+<div class=writing>
+<i>This service allows you to view balances associated with any bitcoin address.<br><br>
+
+You can load the addresses that you want to view and conveniently access them by logging in to your account, meaning you only have to enter an address once in order to track it.<br><br>
+
+While watch-only wallet applications exist, this site can be accessed through a browser from anywhere (as long as you remember your username and password.)  You also don't have to worry about malware impersonating your wallet or accidentally crossing your wires and exposing your private keys in your watch-only environment.</i>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h3>Development plan:</h3>
+<u1>
+	<li>Collect extensive data on the users: anything you can think of in the user table</li>
+	<li>Data collection should include a table that tracks login events: IP address, time spent on site, useragent, all headers (probably need a separate table for "requests" with header data stored as key/value), date/time, what was clicked on, track wealthiest users </li>
+	<li>Resources for building/keeping database up to date: https://bitcoin.stackexchange.com/questions/35857/blockchain-mysql-implementation-updating-database https://github.com/thallium205/Bitcoin_Updater https://github.com/bitcoin-abe/bitcoin-abe http://blockchainsql.io/ </li>
+</u1>
+<h3>Future functionality possibilities:</h3>
+<u1>
+	<li>Email reset of password (if user used email as their username)</li>
+	<li>Send an email to a user when a tx involves one of their addresses</li>
+	<li>Include bitcoin statistics, maybe on second page (examples below)</li>
+	<li>Mempool stats: The mempool currently has <i>32</i> MB of transactions held in memory. </li>
+	<li>Blockchain stats: The blockchain currently has <b title="Last block received 7 minutes ago">480,000</b> blocks.  The last 2016 blocks averaged <u>2500</u> transactions, <u>0.9</u> MB, and provided an average throughput of <u>2.742</u> Tx/sec.</li>
+</u1>
+</body>
+</html>

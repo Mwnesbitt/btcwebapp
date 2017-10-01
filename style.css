@@ -1,0 +1,52 @@
+body {
+	background-color:forestgreen;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse:collapse;
+	padding: 7px;
+	background-color:lightgreen;
+	text-align:center;
+	align=center;    
+}
+div.header{
+	text-align: right;
+	background-color:mediumseagreen;
+	font-style: italic;
+	padding: 7px;
+}
+div.title, h1, h2, h3{
+	background-color:lightgreen;
+	text-align:center;
+	margin-left:15%;
+	margin-right:15%;
+}
+div.inputform {
+	padding: 0px;
+	font-family: verdana;
+	background-color:lightgreen;
+}
+div.writing{
+	padding: 5px;
+	font-family: verdana;
+	background-color:lightgreen;
+	text-align:center;
+	margin-left:15%;
+	margin-right:15%;
+}
+img.one{
+	height:50%;
+	width:50%;
+	padding-right: 25px;
+	float:right;
+}
+div.leftside{
+	float: left; 
+	width: 50%;
+	background-color:lightgreen;
+}
+div.rightside{
+	float: right; 
+	width: 50%;
+	background-color:lightgreen;
+}

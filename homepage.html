@@ -1,0 +1,77 @@
+<html>
+<title>
+Your addresses
+</title>
+<link rel = "stylesheet" type = "text/css" href = "style.css" />
+
+<body>
+<div class=header style=text-align:right>
+<a href="index.html">Logout</a>
+</div>
+
+<h1>Total BTC in all your addresses<br>
+<mark>1.1031</mark> BTC
+</h1>
+
+<h3>Total BTC in <b>Personal</b> addresses<br>
+<mark>1.0031</mark> BTC
+</h3>
+
+<h3>Total BTC in <b>Family</b> addresses<br>
+<mark>0.1</mark> BTC
+</h3>
+
+<h3>Total BTC in <b>Cold Storage</b> addresses<br>
+<mark>0.674</mark> BTC
+</h3>
+<br>
+<br>
+
+<table align=center>
+  <tr>
+    <th>Address</th>
+    <th>Balance</th>
+    <th>Tags</th>
+    <th>Expand</th>
+    <th>Delete</th>
+  </tr>
+  <tr>
+    <td>14kdnfweifhlskdj</td>
+    <td>0.4291</td>
+    <td>Hot Wallet, Personal</td>
+    <td>+</td>
+    <th></th>
+  </tr>
+  <tr>
+    <td>3d39fkjlsdureqfad</td>
+    <td>0.574</td>
+    <td>Cold Storage, Personal</td>
+    <td>+</td>
+    <th></th>
+  </tr>
+  <tr>
+    <td>15124sdfjfnli2cmef</td>
+    <td>0.1</td>
+    <td>Cold Storage, Family</td>
+    <td>+</td>
+    <th></th>
+  </tr>
+</table>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h3> Javascript to do list</h3>
+<u1>
+<li>Add an address (below list of addresses)</li>
+<li>add/remove tags</li>
+<li>expand/collapse to see recent TXs (shows confirmations)</li>
+<li>show more/less Txs</li>
+<li>validation of user input: length of BTC address, starts with a 1 or a 3, then base58 check decoding plus hash checking (do this on the server side too (along with a warning that the second time they mess with your front end code and submit results their IP address will be banned.) https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses#How_to_create_Bitcoin_Address  http://www.webtoolkit.info/javascript_sha256.html  https://www.w3schools.com/html/html_scripts.asp  https://www.w3schools.com/js/js_examples.asp
+</li>
+</u1>
+</body>
+</html>
